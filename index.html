@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body
+    class="max-w-screen relative flex flex-col lg:flex-row min-h-full mx-auto space-y-16 lg:space-y-0"
+  >
+    <nav
+      class="fixed z-40 san font-semibold lg:font-base bg-purple-300 items-center px-6 py-3 md:px-16 lg:px-6 lg:py-6 lg:pb-20 h-16 w-full flex lg:flex-col justify-between lg:justify-start lg:space-y-12 lg:w-24 lg:h-full lg:basis-[15%]"
+    >
+      <div class="lg:mb-20">
+        <img
+          src="./public/Teal 3d Open Sign Instagram Post.webp"
+          alt="logo"
+          class="rounded-full w-12 h-12"
+        />
+      </div>
+      <div
+        class="flex lg:items-center lg:flex-col lg:text-xl justify-end md:justify-center space-x-6 md:space-x-12 lg:space-y-12 lg:space-x-0"
+      >
+        <a href="#project" class="mono">Project</a>
+        <a href="#hero" class="mono">About</a>
+        <a href="#connect" class="mono">Connect</a>
+      </div>
+    </nav>
+    <main
+      class="w-[90%] lg:w-full mx-auto text-gray-700 lg:basis-[55%]"
+    >
+      <section id="hero" class="mt-8 lg:mt-24 my-12">
+        <h1
+          class="mono mx-auto lg:mx-0 my-4 lg:mb-10 text-2xl lg:text-5xl w-max font-medium text-black px-4 py-2 bg-purple-300"
+        >
+          Hi, I&apos;m Ginko
+        </h1>
+        <div class="relative my-12 w-52 h-52 group mx-auto">
+          <div
+            class="hidden lg:block group-hover:left-4 group-hover:bottom-4 group-hover:bg-purple-600 transition-all duration-500 ease-in-out absolute bottom-8 -z-10 left-8 h-52 w-52 bg-purple-300 border-2"
+          ></div>
+          <img
+            src="./public/person.webp"
+            alt=""
+            class="h-52 w-52 mx-auto lg:hue-rotate-60 hover:hue-rotate-0 drop-shadow-xl shadow-md"
+          />
+        </div>
+        <div class="bg-gray-300 h-[0.124rem]"></div>
+        <p
+          class="my-4 lg:my-5 md:text-[1.26rem] md:leading-7 lg:text-[1.4rem] lg:leading-9"
+        >
+          I'm a Frontend developer, previously at
+          <span class="italic font-bold">Google.</span> I try to
+          design and build software that helps people.
+        </p>
+        <p
+          class="my-4 lg:my-5 md:text-[1.26rem] md:leading-7 lg:text-[1.4rem] lg:leading-9"
+        >
+          I have previously worked with GDSC website as part of GDSC
+          core program where I had to make and manage the official
+          website. I am still learning and unlearning how to make
+          sites accessible. Other than that, I have organized InOut
+          hackathon in the past and still volunteer for the event.
+        </p>
+      </section>
+      <section id="project" class="my-16 lg:my-20">
+        <h1
+          class="mono my-4 text-2xl lg:text-5xl w-max font-medium px-4 py-2 bg-purple-300"
+        >
+          Projects
+        </h1>
+        <p
+          class="my-4 lg:my-5 md:text-[1.26rem] md:leading-7 lg:text-[1.4rem] lg:leading-9"
+        >
+          Most of them are obsolete,or unmaintained,
+        </p>
+        <div class="bg-gray-300 h-[0.124rem]"></div>
+        <div class="flex flex-col space-y-5">
+          <div class="my-6">
+            <h3 class="text-xl">
+              <div
+                class="flex items-center -space-x-2 font-exrtabold"
+              >
+                <div
+                  class="bg-purple-400 h-[0.15rem] w-4 rounded-full -rotate-[65deg]"
+                ></div>
+                <div
+                  class="bg-purple-400 h-[0.15rem] w-4 rounded-full -rotate-[65deg]"
+                ></div>
+                <div
+                  class="pl-3 mono font-semibold text-xl md:text-2xl lg:text-3xl"
+                >
+                  Portfolio
+                </div>
+              </div>
+            </h3>
+            <div class="px-4 py-4 flex flex-col space-y-5">
+              <div class="">
+                <img
+                  src="./public/blockchain.png"
+                  alt="project-img-1"
+                  class="rounded-xl drop-shadow-lg shadow-black shadow-sm border-white border-4"
+                />
+              </div>
+              <div class="flex flex-col space-y-3">
+                <p
+                  class="my-4 lg:my-5 md:text-[1.26rem] md:leading-7 lg:text-[1.4rem] lg:leading-9"
+                >
+                  I have previously worked with Plone CMS as part of
+                  GSoC program where I learnt about the accessibility
+                  and now talk about accessibility with everyone who
+                  would listen to me.
+                </p>
+                <a
+                  href="#"
+                  class="relative inline-block px-4 py-2 w-max font-medium group"
+                >
+                  <span
+                    class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-purple-300 group-hover:-translate-x-0 group-hover:-translate-y-0"
+                  ></span>
+                  <span
+                    class="absolute inset-0 w-full h-full bg-white border-2 border-purple-200 group-hover:bg-purple-300"
+                  ></span>
+                  <span
+                    class="relative flex space-x-4 text-black group-hover:text-white"
+                    >Button Text
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      class="ml-2"
+                    >
+                      <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="my-6">
+            <h3 class="text-xl">
+              <div
+                class="flex items-center -space-x-2 font-exrtabold"
+              >
+                <div
+                  class="bg-purple-400 h-[0.15rem] w-4 rounded-full -rotate-[65deg]"
+                ></div>
+                <div
+                  class="bg-purple-400 h-[0.15rem] w-4 rounded-full -rotate-[65deg]"
+                ></div>
+                <div
+                  class="pl-3 mono font-semibold text-xl md:text-2xl lg:text-3xl"
+                >
+                  Portfolio
+                </div>
+              </div>
+            </h3>
+            <div class="px-4 py-4 flex flex-col space-y-5">
+              <div class="">
+                <img
+                  src="./public/blockchain.png"
+                  alt="project-img-1"
+                  class="rounded-xl drop-shadow-lg shadow-black shadow-sm border-white border-4"
+                />
+              </div>
+              <div class="flex flex-col space-y-3">
+                <p
+                  class="my-4 lg:my-5 md:text-[1.26rem] md:leading-7 lg:text-[1.4rem] lg:leading-9"
+                >
+                  I have previously worked with Plone CMS as part of
+                  GSoC program where I learnt about the accessibility
+                  and now talk about accessibility with everyone who
+                  would listen to me.
+                </p>
+                <a
+                  href="#"
+                  class="relative inline-block px-4 py-2 w-max font-medium group"
+                >
+                  <span
+                    class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-purple-400 group-hover:-translate-x-0 group-hover:-translate-y-0"
+                  ></span>
+                  <span
+                    class="absolute inset-0 w-full h-full bg-white border-2 border-purple-300 group-hover:bg-purple-300"
+                  ></span>
+                  <span
+                    class="relative flex space-x-4 text-black group-hover:text-white"
+                    >Button Text
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      class="ml-2"
+                    >
+                      <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="my-6">
+            <h3 class="text-xl">
+              <div
+                class="flex items-center -space-x-2 font-exrtabold"
+              >
+                <div
+                  class="bg-purple-400 h-[0.15rem] w-4 rounded-full -rotate-[65deg]"
+                ></div>
+                <div
+                  class="bg-purple-400 h-[0.15rem] w-4 rounded-full -rotate-[65deg]"
+                ></div>
+                <div
+                  class="pl-3 mono font-semibold text-xl md:text-2xl lg:text-3xl"
+                >
+                  Portfolio
+                </div>
+              </div>
+            </h3>
+            <div class="px-4 py-4 flex flex-col space-y-5">
+              <div class="">
+                <img
+                  src="./public/blockchain.png"
+                  alt="project-img-1"
+                  class="rounded-xl drop-shadow-lg shadow-black shadow-sm border-white border-4"
+                />
+              </div>
+              <div class="flex flex-col space-y-3">
+                <p
+                  class="my-4 lg:my-5 md:text-[1.26rem] md:leading-7 lg:text-[1.4rem] lg:leading-9"
+                >
+                  I have previously worked with Plone CMS as part of
+                  GSoC program where I learnt about the accessibility
+                  and now talk about accessibility with everyone who
+                  would listen to me.
+                </p>
+                <a
+                  href="#"
+                  class="relative inline-block px-4 py-2 w-max font-medium group"
+                >
+                  <span
+                    class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-purple-300 group-hover:-translate-x-0 group-hover:-translate-y-0"
+                  ></span>
+                  <span
+                    class="absolute inset-0 w-full h-full bg-white border-2 border-purple-200 group-hover:bg-purple-300"
+                  ></span>
+                  <span
+                    class="relative flex space-x-4 text-black group-hover:text-white"
+                    >Button Text
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      class="ml-2"
+                    >
+                      <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="connect" class="my-16 lg:my-20">
+        <h1
+          class="mono my-4 text-2xl lg:text-5xl w-max font-medium px-4 py-2 bg-purple-300"
+        >
+          Let&apos;s Connect!
+        </h1>
+        <div
+          class="bg-gray-300 h-[0.124rem] my-6 md:my-8 lg:my-10"
+        ></div>
+        <p
+          class="my-4 lg:my-5 md:text-[1.26rem] md:leading-7 lg:text-[1.4rem] lg:leading-9"
+        >
+          The best way to contact me is through
+          <a
+            href="#"
+            class="pro tracking-tight underline font-semibold"
+            >Linkedin</a
+          >
+          <br />
+          While I also have
+          <a
+            href="#"
+            class="pro tracking-tight underline font-semibold"
+            >Instagram</a
+          >
+          &
+          <a
+            href="#"
+            class="pro tracking-tight underline font-semibold"
+            >Twitter</a
+          >
+          ,
+          <br />
+          best way to reach me would be through
+          <a
+            href="mailto:#"
+            class="pro tracking-tight underline font-semibold"
+            >mush@gmail.com</a
+          >
+        </p>
+      </section>
+      <footer class="my-20 md:mt-32 lg:mt-40 flex justify-center">
+        <div class="text-center leading-3 tracking-tight">
+          <p
+            class="mono font-semibold text-sm md:text-md lg:text-[0.98rem]"
+          >
+            Made with 💖 by Ginko
+          </p>
+          <p class="mono text-xs md:text-sm lg:text-md">
+            All right reserved &copy; 2022 ginko
+          </p>
+        </div>
+      </footer>
+    </main>
+    <aside
+      class="hidden fixed right-20 top-80 lg:flex items-center lg:flex-col lg:justify-end lg:space-y-6"
+    >
+      <div class="">
+        <svg
+          width="800px"
+          height="800px"
+          viewBox="0 0 48 48"
+          version="1.1"
+          id="Shopicons"
+          xmlns="http://www.w3.org/2000/svg"
+          x="0"
+          y="0"
+          xml:space="preserve"
+          class="w-7 h-8 fill-gray-400 hover:fill-teal-400 cursor-pointer"
+        >
+          <style>
+            .st1 {
+              fill: #fff;
+            }
+            .st2,
+            .st3 {
+              fill: none;
+              stroke: #666;
+              stroke-width: 4;
+              stroke-miterlimit: 10;
+            }
+            .st3 {
+              stroke-width: 6;
+            }
+          </style>
+
+          <g
+            id="github_00000178918564504449926280000008731996709616696990_"
+          >
+            <path d="M0 .011h48v48H0v-48z" fill="none" />
+
+            <path
+              d="M30 44.004v-10c0-.884-.197-1.722-.542-2.479.825-.167 1.65-.358 2.472-.601 2.527-.746 6.154-3.839 7.226-6.863 1.188-3.356 1.188-6.76 0-10.116l-.001-.001c-.213-.603-.537-1.211-.998-1.868.848-3.154.253-5.792.225-5.915l-.365-1.564-1.606.019c-.15.002-3.48.063-6.724 1.955a29.635 29.635 0 0 0-11.371 0c-3.243-1.892-6.573-1.953-6.724-1.955l-1.608-.019-.365 1.564c-.028.123-.623 2.761.225 5.915-.461.657-.785 1.266-.999 1.869-1.187 3.356-1.187 6.76.001 10.117 1.07 3.023 4.697 6.116 7.225 6.862.822.243 1.647.434 2.472.601A5.946 5.946 0 0 0 18 34.004v1.281c-.062.036-.127.065-.187.108-.289.211-2.869 1.967-5.505.09-.93-.946-1.386-1.639-1.826-2.309-.988-1.5-1.841-2.586-4.588-3.96a2 2 0 1 0-1.789 3.579c1.991.995 2.341 1.525 3.035 2.581.515.781 1.155 1.754 2.445 3.044l.215.186c1.692 1.27 3.447 1.723 5.053 1.723A9.286 9.286 0 0 0 18 39.76v4.253l12-.009z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div>
+        <svg
+          fill="#000000"
+          width="800px"
+          height="800px"
+          viewBox="0 0 32 32"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-7 h-8 fill-gray-400 hover:fill-teal-400 cursor-pointer"
+        >
+          <path
+            d="M30.996 7.824v17.381c0 0 0 0 0 0.001 0 1.129-0.915 2.044-2.044 2.044-0 0-0 0-0.001 0h-4.772v-11.587l-8.179 6.136-8.179-6.136v11.588h-4.772c0 0 0 0-0 0-1.129 0-2.044-0.915-2.044-2.044 0-0 0-0.001 0-0.001v0-17.381c0-0 0-0.001 0-0.001 0-1.694 1.373-3.067 3.067-3.067 0.694 0 1.334 0.231 1.848 0.619l-0.008-0.006 10.088 7.567 10.088-7.567c0.506-0.383 1.146-0.613 1.84-0.613 1.694 0 3.067 1.373 3.067 3.067v0z"
+          ></path>
+        </svg>
+      </div>
+      <div>
+        <svg
+          fill="#000000"
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="-271 283.9 256 235.1"
+          xml:space="preserve"
+          class="h-7 w-7 fill-gray-400 hover:fill-teal-400 cursor-pointer"
+        >
+          <g>
+            <rect x="-264.4" y="359.3" width="49.9" height="159.7" />
+            <path
+              d="M-240.5,283.9c-18.4,0-30.5,11.9-30.5,27.7c0,15.5,11.7,27.7,29.8,27.7h0.4c18.8,0,30.5-12.3,30.4-27.7
+		C-210.8,295.8-222.1,283.9-240.5,283.9z"
+            />
+            <path
+              d="M-78.2,357.8c-28.6,0-46.5,15.6-49.8,26.6v-25.1h-56.1c0.7,13.3,0,159.7,0,159.7h56.1v-86.3c0-4.9-0.2-9.7,1.2-13.1
+		c3.8-9.6,12.1-19.6,27-19.6c19.5,0,28.3,14.8,28.3,36.4V519h56.6v-88.8C-14.9,380.8-42.7,357.8-78.2,357.8z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div class="h-40 w-[0.15rem] rounded-full bg-teal-300"></div>
+    </aside>
+  </body>
+</html>
